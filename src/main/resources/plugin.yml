@@ -2,3 +2,9 @@ name: FarmingBlocks
 version: '${project.version}'
 main: com.marlongrazek.farmingblocks.main.Main
 api-version: 1.18
+
+commands:
+  farmingblock:
+    description: command for managing farmingblocks
+    aliases:
+      - fb
